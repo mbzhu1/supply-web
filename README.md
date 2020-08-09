@@ -1,6 +1,6 @@
 <img src="https://github.com/mbzhu1/supply-webs/blob/master/src/resources/supply.svg?raw=true" width="250">
 
-This is the landing page for our Plexhacks project https://glacial-eyrie-51974.herokuapp.com/ 
+This is code repo for the landing page of the Supply project, made by Lewana Su, Malia Jiang, Joseph Liu, and Michael Zhu 
 
 It features our ios application, Supply, which allows users to donate and request essentials such as masks and hand sanitizer
 
