@@ -29,21 +29,21 @@ function FeaturesSection(props) {
                 {
                   title: "Find essentials you need",
                   description:
-                    "Imagine a world where you can chat with your friends without having to see their dumb faces.",
+                    "Imagine a world of COVID-19 where people didn't have to worry about toilet paper shortages or dwindling food supplies.",
                   iconClass: "fas fa-briefcase-medical",
                   iconColor: "danger",
                 },
                 {
                   title: "Donate items you don't need",
                   description:
-                    "We embedded a bunch free flash games inside our app. What we lack in quality we make up in quantity.",
+                    "If you have certain items in abundance, donate them to those in need! Especially if you have extra masks, hand sanitizer, or any other quarantine essentials.",
                   iconClass: "fas fa-dove",
                   iconColor: "primary",
                 },
                 {
                   title: "Make the world a better place",
                   description:
-                    "Our market research told us people like cats so we put some cat icons on our website.",
+                    "Everyone right now is going through tough times. If you're able to, reach out to others and lend them a helping hand.",
                   iconClass: "fas fa-hand-holding-heart",
                   iconColor: "dark",
                 },

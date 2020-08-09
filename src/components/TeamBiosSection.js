@@ -3,6 +3,10 @@ import Section from "./Section";
 import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
 import TeamBios from "./TeamBios";
+import Michael from "../resources/michaelhead.png"
+import Joe from "../resources/joehead.png"
+import Malia from "../resources/maliahead.png"
+import Lewana from "../resources/lewanahead.png"
 
 function TeamBiosSection(props) {
   return (
@@ -24,41 +28,41 @@ function TeamBiosSection(props) {
         <TeamBios
           items={[
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-68.jpeg",
+              avatar: Lewana,
               name: "Lewana Su",
               role: "Designer",
               bio:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo.",
+                "Lewana is a rising sophomore at UC Berkeley.",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
               linkedinUrl: "https://linkedin.com",
             },
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-35.jpeg",
+              avatar: Malia,
               name: "Malia Jiang",
               role: "Designer",
               bio:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam! Labore reprehenderit beatae magnam animi!",
+                "Malia is a rising sophomore at UC Berkeley.",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
               linkedinUrl: "https://linkedin.com",
             },
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-16.jpeg",
+              avatar: Joe,
               name: "Joseph Yeh",
               role: "Software Engineer",
               bio:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam! Labore reprehenderit beatae magnam animi!",
+                "Joseph is a rising sophomore ay UC Berkeley studying computer science and applied math. He is extremely passionate about mobile development and entreprenuership.",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
               linkedinUrl: "https://linkedin.com",
             },
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-16.jpeg",
+              avatar: Michael,
               name: "Michael Zhu",
               role: "Software Engineer",
               bio:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam! Labore reprehenderit beatae magnam animi!",
+                "Michael is a rising sophomore at UC Berkeley studying computer science and economics. He is especially interested in machine learning and web development.",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
               linkedinUrl: "https://linkedin.com",

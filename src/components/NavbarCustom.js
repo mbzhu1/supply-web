@@ -30,33 +30,14 @@ function NavbarCustom(props) {
         ></Navbar.Toggle>
         <Navbar.Collapse id="navbar-nav" className="justify-content-end">
           <Nav>
-            {auth.user && (
-              <NavDropdown id="dropdown" title="Account" alignRight={true}>
-                <LinkContainer to="/dashboard">
-                  <NavDropdown.Item active={false}>Dashboard</NavDropdown.Item>
+              <NavDropdown id="dropdown" title="Menu" alignRight={true}>
+                <LinkContainer to="/about">
+                  <NavDropdown.Item active={false}>About</NavDropdown.Item>
                 </LinkContainer>
-
-                <LinkContainer to="/settings/general">
-                  <NavDropdown.Item active={false}>Settings</NavDropdown.Item>
-                </LinkContainer>
-
-                <Dropdown.Divider></Dropdown.Divider>
-
-                <LinkContainer to="/auth/signout">
-                  <NavDropdown.Item
-                    active={false}
-                    onClick={(e) => {
-                      e.preventDefault();
-                      auth.signout();
-                    }}
-                  >
-                    Sign out
-                  </NavDropdown.Item>
+                <LinkContainer to="/faq">
+                  <NavDropdown.Item active={false}>FAQ</NavDropdown.Item>
                 </LinkContainer>
               </NavDropdown>
-            )}
-
-            
           </Nav>
         </Navbar.Collapse>
       </Container>

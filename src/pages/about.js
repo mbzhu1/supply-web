@@ -6,13 +6,16 @@ function AboutPage(props) {
   return (
     <>
       <HeroSection2
-        bg="primary"
+        bg="magenta"
         textColor="white"
         size="lg"
         bgImage=""
         bgImageOpacity={1}
-        title="We help you make money"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!"
+        title="We got the credentials"
+        title2="To find you some essentials"
+        title3="Yeah, its exponential"
+        subtitle="- Snoop Dogg*"
+        asterisk="* (not really)"
       ></HeroSection2>
       <TeamBiosSection
         bg="white"

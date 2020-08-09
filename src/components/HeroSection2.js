@@ -15,7 +15,10 @@ function HeroSection2(props) {
       <Container>
         <SectionHeader
           title={props.title}
+          title2={props.title2}
+          title3={props.title3}
           subtitle={props.subtitle}
+          asterisk={props.asterisk}
           size={1}
           spaced={true}
           className="text-center"

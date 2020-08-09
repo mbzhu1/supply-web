@@ -24,7 +24,7 @@ function FaqSection(props) {
         <Faq
           items={[
             {
-              question: "Integer ornare neque mauris?",
+              question: "What is the problem you are solving?",
               answer:
                 "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus. Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.",
             },
