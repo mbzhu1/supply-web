@@ -30,8 +30,8 @@ function IndexPage(props) {
         buttonColor="magenta"
         image= "https://uploads.divjoy.com/undraw-directions_x53j.svg"
         buttonOnClick={() => {
-          // Navigate to pricing page
-          router.push("/pricing");
+          // Navigate to video page
+          window.open("https://youtu.be/TKFzxqQhjOU", "_blank");
         }}
         secondOnClick={() => {
           // Navigate to github page
