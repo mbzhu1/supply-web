@@ -24,6 +24,10 @@ function IndexPage(props) {
           // Navigate to pricing page
           router.push("/pricing");
         }}
+        secondOnClick={() => {
+          // Navigate to github page
+          window.open("https://github.com/mbzhu1/supply", "_blank");
+        }}
       ></HeroSection>
       <FeaturesSection
         bg="white"

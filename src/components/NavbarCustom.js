@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import { LinkContainer } from "react-router-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import Dropdown from "react-bootstrap/Dropdown";
+import Dropdown, { DropdownDivider } from "react-bootstrap/Dropdown";
 import { useAuth } from "./../util/auth.js";
 
 function NavbarCustom(props) {
@@ -37,6 +37,17 @@ function NavbarCustom(props) {
                 <LinkContainer to="/faq">
                   <NavDropdown.Item active={false}>FAQ</NavDropdown.Item>
                 </LinkContainer>
+                <Dropdown.Divider></Dropdown.Divider>
+                <NavDropdown.Item active={false} 
+                  onClick={() => {
+                    window.open("https://www.figma.com/file/ZKLx5jHVJ6YfWGg2PPETNv/PlexHacks", "_blank")
+                  }}>
+                  Designs</NavDropdown.Item>
+                  <NavDropdown.Item active={false} 
+                  onClick={() => {
+                    window.open("https://github.com/mbzhu1/supply", "_blank")
+                  }}>
+                  Code</NavDropdown.Item>
               </NavDropdown>
           </Nav>
         </Navbar.Collapse>

@@ -24,14 +24,25 @@ function HeroSection(props) {
               title={props.title}
               subtitle={props.subtitle}
               size={1}
-              spaced={true}
+              spaced={false}
+              style={{margin: 4}}
             ></SectionHeader>
             <Button
               variant={props.buttonColor}
               size="lg"
               onClick={props.buttonOnClick}
+              style={{margin: 5}}
             >
               {props.buttonText}
+            </Button>
+            <br></br>
+            <Button
+              variant={props.buttonColor}
+              size="lg"
+              onClick={props.secondOnClick}
+              style={{margin: 5}}
+            >
+              Our codebase!
             </Button>
           </Col>
           <Col className="offset-lg-1 mt-5 mt-lg-0 ">

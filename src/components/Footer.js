@@ -26,13 +26,31 @@ function Footer(props) {
             <Link to="/faq">FAQ</Link>
             <a
               target="_blank"
-              href="https://medium.com"
+              href="https://humanparts.medium.com/"
               rel="noopener noreferrer"
             >
               Blog
             </a>
           </div>
           <div className="social right">
+            <a
+              href="https://github.com/mbzhu1/supply"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="icon">
+                <i className="fab fa-github"></i>
+              </span>
+            </a>
+            <a
+              href="https://www.figma.com/file/ZKLx5jHVJ6YfWGg2PPETNv/PlexHacks"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="icon">
+                <i className="fab fa-figma"></i>
+              </span>
+            </a>
             <a
               href="https://twitter.com/innocence"
               target="_blank"
