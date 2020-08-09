@@ -30,25 +30,12 @@ function NavbarCustom(props) {
         ></Navbar.Toggle>
         <Navbar.Collapse id="navbar-nav" className="justify-content-end">
           <Nav>
-              <NavDropdown id="dropdown" title="Menu" alignRight={true}>
-                <LinkContainer to="/about">
-                  <NavDropdown.Item active={false}>About</NavDropdown.Item>
-                </LinkContainer>
-                <LinkContainer to="/faq">
-                  <NavDropdown.Item active={false}>FAQ</NavDropdown.Item>
-                </LinkContainer>
-                <Dropdown.Divider></Dropdown.Divider>
-                <NavDropdown.Item active={false} 
-                  onClick={() => {
-                    window.open("https://www.figma.com/file/ZKLx5jHVJ6YfWGg2PPETNv/PlexHacks", "_blank")
-                  }}>
-                  Designs</NavDropdown.Item>
-                  <NavDropdown.Item active={false} 
-                  onClick={() => {
-                    window.open("https://github.com/mbzhu1/supply", "_blank")
-                  }}>
-                  Code</NavDropdown.Item>
-              </NavDropdown>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="faq">FAQ</Nav.Link>
+            <Nav.Link href="https://www.figma.com/file/ZKLx5jHVJ6YfWGg2PPETNv/PlexHacks" target="_blank">
+              Designs
+            </Nav.Link>
+            <Nav.Link href="https://github.com/mbzhu1/supply" target="_blank">Code</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
