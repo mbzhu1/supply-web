@@ -18,7 +18,7 @@ function Footer(props) {
         <div className="FooterComponent__inner">
           <div className="brand left">
             <Link to="/">
-              <img src={props.logo} alt="Logo"></img>
+              <img src={props.logo} alt="Logo" height="100"></img>
             </Link>
           </div>
           <div className="links right">

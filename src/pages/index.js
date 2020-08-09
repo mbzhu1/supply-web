@@ -18,7 +18,7 @@ function IndexPage(props) {
         title="supply."
         subtitle="Donate and request essential goods from your local community!"
         buttonText="Check out our demo video!"
-        buttonColor="primary"
+        buttonColor="magenta"
         image="https://uploads.divjoy.com/undraw-japan_ubgk.svg"
         buttonOnClick={() => {
           // Navigate to pricing page

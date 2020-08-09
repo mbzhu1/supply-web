@@ -10,6 +10,7 @@ import { Switch, Route, Router } from "./../util/router.js";
 import NotFoundPage from "./not-found.js";
 import Footer from "./../components/Footer";
 import { ProvideAuth } from "./../util/auth.js";
+import SupplyLogo from "../resources/supply.svg"
 
 function App(props) {
   return (
@@ -20,7 +21,7 @@ function App(props) {
             bg="white"
             variant="light"
             expand="md"
-            logo="https://uploads.divjoy.com/logo.svg"
+            logo={SupplyLogo}
           ></NavbarCustom>
 
           <Switch>
@@ -41,7 +42,7 @@ function App(props) {
             bgImageOpacity={1}
             description="A short description of what you do here"
             copyright="Made with ❤️ and ☕️"
-            logo="https://uploads.divjoy.com/logo.svg"
+            logo={SupplyLogo}
           ></Footer>
         </>
       </Router>
