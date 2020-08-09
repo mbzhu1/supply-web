@@ -6,6 +6,8 @@ import Clients from "./Clients";
 import XcodeLogo from "../resources/xcode.png"
 import FigmaLogo from "../resources/figma.png"
 import GithubLogo from "../resources/github.png"
+import PhotoshopLogo from "../resources/photoshopLogo.png"
+
 
 function BuiltWithSection(props) {
   return (
