@@ -32,7 +32,7 @@ function TeamBiosSection(props) {
               name: "Lewana Su",
               role: "Designer",
               bio:
-                "Lewana is a rising sophomore at UC Berkeley.",
+                "Lewana is a rising sophomore at UC Berkeley who is interested in Data Science, Operations, or Business. She loves the arts as well, and is involved with music and technical theater. She recently became fascinated with product design and aims to develop her skills. ",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
               linkedinUrl: "https://linkedin.com",
