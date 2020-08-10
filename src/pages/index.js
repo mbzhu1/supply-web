@@ -38,16 +38,16 @@ function IndexPage(props) {
           window.open("https://github.com/jojo39381/supply", "_blank");
         }}
       ></HeroSection>
-      {/* <VideoSection
+      <VideoSection
         bg="white"
         textColor="dark"
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Supply"
+        title="Animated Promotion"
         subtitle=""
-        embedUrl="https://www.youtube.com/embed/z9Ul9ccDOqE"
-      ></VideoSection> */}
+        embedUrl="https://www.youtube.com/embed/iEmzgRG5MzE"
+      ></VideoSection> 
       <FeaturesSection
         bg="white"
         textColor="dark"

@@ -18,13 +18,13 @@ function VideoSection(props) {
           maxWidth: "768px",
         }}
       >
-        <SectionHeader
+        {/* <SectionHeader
           title={props.title}
           subtitle={props.subtitle}
           size={2}
           spaced={true}
           className="text-center"
-        ></SectionHeader>
+        ></SectionHeader> */}
         <VideoEmbed url={props.embedUrl}></VideoEmbed>
       </Container>
     </Section>
