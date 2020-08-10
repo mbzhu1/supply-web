@@ -42,7 +42,7 @@ function TeamBiosSection(props) {
               name: "Malia Jiang",
               role: "Designer",
               bio:
-                "Malia is a rising sophomore at UC Berkeley.",
+                "Malia is a rising sophomore at UC Berkeley who is interested in Cognitive Science, Business, and Data Science. She loves volunteering at local nonprofits and is very passionate about society and entreprenuership.",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
               linkedinUrl: "https://linkedin.com",
