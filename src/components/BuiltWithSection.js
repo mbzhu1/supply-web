@@ -7,7 +7,7 @@ import XcodeLogo from "../resources/xcode.png"
 import FigmaLogo from "../resources/figma.png"
 import GithubLogo from "../resources/github.png"
 import VercelLogo from "../resources/vercel.png"
-
+import FirebaseLogo from "./../resources/firebase.png"
 
 function BuiltWithSection(props) {
   return (
@@ -43,10 +43,16 @@ function BuiltWithSection(props) {
               width: "160px",
             },
             {
+              name: "Firebase",
+              image: FirebaseLogo,
+              width: "180px",
+            },
+            {
               name: "Vercel",
               image: VercelLogo,
               width: "160px",
             },
+            
           ]}
         ></Clients>
       </Container>
