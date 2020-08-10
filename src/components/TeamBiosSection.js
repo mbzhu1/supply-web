@@ -42,7 +42,7 @@ function TeamBiosSection(props) {
               name: "Malia Jiang",
               role: "Designer",
               bio:
-                "Malia is a rising sophomore at UC Berkeley who is interested in Cognitive Science, Business, and Data Science. She loves volunteering at local nonprofits and is very passionate about society and entreprenuership.",
+                "Malia is a rising sophomore at UC Berkeley who is interested in Political Science, Cognitive Science, and Business. In her free time, she likes to bake and video edit. She is also passionate about entrepreneurship and society.",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
               linkedinUrl: "https://linkedin.com",
@@ -52,7 +52,7 @@ function TeamBiosSection(props) {
               name: "Joseph Yeh",
               role: "Software Engineer",
               bio:
-                "Joseph is a rising sophomore ay UC Berkeley studying computer science and applied math. He is extremely passionate about mobile development and entreprenuership.",
+                "Joseph is a rising sophomore at UC Berkeley studying computer science and applied math. He is extremely passionate about mobile development and entreprenuership.",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
               linkedinUrl: "https://linkedin.com",

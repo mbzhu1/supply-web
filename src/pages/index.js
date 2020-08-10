@@ -31,7 +31,7 @@ function IndexPage(props) {
         image= "https://uploads.divjoy.com/undraw-directions_x53j.svg"
         buttonOnClick={() => {
           // Navigate to video page
-          window.open("https://youtu.be/TKFzxqQhjOU", "_blank");
+          window.open("https://youtu.be/HOxSLHF1I2E", "_blank");
         }}
         secondOnClick={() => {
           // Navigate to github page

@@ -52,7 +52,6 @@ function BuiltWithSection(props) {
               image: VercelLogo,
               width: "160px",
             },
-            
           ]}
         ></Clients>
       </Container>
