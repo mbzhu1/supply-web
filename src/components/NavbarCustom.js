@@ -35,7 +35,7 @@ function NavbarCustom(props) {
             <Nav.Link href="https://www.figma.com/file/ZKLx5jHVJ6YfWGg2PPETNv/Supply" target="_blank">
               Designs
             </Nav.Link>
-            <Nav.Link href="https://github.com/mbzhu1/supply" target="_blank">Code</Nav.Link>
+            <Nav.Link href="https://github.com/jojo39381/supply" target="_blank">Code</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
