@@ -32,7 +32,7 @@ function NavbarCustom(props) {
           <Nav>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="faq">FAQ</Nav.Link>
-            <Nav.Link href="https://www.figma.com/file/ZKLx5jHVJ6YfWGg2PPETNv/PlexHacks" target="_blank">
+            <Nav.Link href="https://www.figma.com/file/ZKLx5jHVJ6YfWGg2PPETNv/Supply" target="_blank">
               Designs
             </Nav.Link>
             <Nav.Link href="https://github.com/mbzhu1/supply" target="_blank">Code</Nav.Link>

@@ -35,7 +35,7 @@ function IndexPage(props) {
         }}
         secondOnClick={() => {
           // Navigate to github page
-          window.open("https://github.com/mbzhu1/supply", "_blank");
+          window.open("https://github.com/jojo39381/supply", "_blank");
         }}
       ></HeroSection>
       {/* <VideoSection

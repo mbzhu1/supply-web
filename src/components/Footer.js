@@ -34,7 +34,7 @@ function Footer(props) {
           </div>
           <div className="social right">
             <a
-              href="https://github.com/mbzhu1/supply"
+              href="https://github.com/jojo39381/supply"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -43,7 +43,7 @@ function Footer(props) {
               </span>
             </a>
             <a
-              href="https://www.figma.com/file/ZKLx5jHVJ6YfWGg2PPETNv/PlexHacks"
+              href="https://www.figma.com/file/ZKLx5jHVJ6YfWGg2PPETNv/Supply"
               target="_blank"
               rel="noopener noreferrer"
             >
