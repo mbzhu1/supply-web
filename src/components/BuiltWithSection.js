@@ -6,7 +6,7 @@ import Clients from "./Clients";
 import XcodeLogo from "../resources/xcode.png"
 import FigmaLogo from "../resources/figma.png"
 import GithubLogo from "../resources/github.png"
-import PhotoshopLogo from "../resources/photoshopLogo.png"
+import VercelLogo from "../resources/vercel.png"
 
 
 function BuiltWithSection(props) {
@@ -40,6 +40,11 @@ function BuiltWithSection(props) {
             {
               name: "Github",
               image: GithubLogo,
+              width: "160px",
+            },
+            {
+              name: "Vercel",
+              image: VercelLogo,
               width: "160px",
             },
           ]}
